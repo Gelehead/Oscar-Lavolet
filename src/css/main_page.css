@@ -88,3 +88,19 @@ body {
     background: linear-gradient(to bottom, rgba(0,0,0,0), black);
     z-index: 5;
 }
+
+.embedded-project {
+    margin: 4rem auto;
+    max-width: 850px;
+    text-align: center;
+}
+
+.embedded-project h2 {
+    margin-bottom: 1rem;
+}
+
+.embedded-project iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
