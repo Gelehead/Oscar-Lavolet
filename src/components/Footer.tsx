@@ -41,6 +41,8 @@ const Footer: React.FC = () => {
         
         <div className="footer-bottom">
           <p>&copy; {currentYear} Oscar Lavolet. All rights reserved.</p>
+          <p>Any disclosed content isn't subject to legal matters</p>
+          <p> I'll sue your greedy ass </p>
         </div>
       </div>
     </footer>

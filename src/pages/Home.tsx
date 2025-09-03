@@ -26,7 +26,7 @@ const Home: React.FC = () => {
         >
           {/* Animated GIF Background */}
           <div className="gif-background">
-            {/* You can replace this with your actual GIF URL */}
+            {/* PLACEHOLDER, REPLACE WITH 3D AUTOMATA THAT CYCLES SOMEHOW GIF */}
             <img 
               src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" 
               alt="Animated Background"
@@ -38,35 +38,22 @@ const Home: React.FC = () => {
         
         <div className="hero-content">
           <h1 className="parallax-title">Oscar Lavolet</h1>
-          <div className="subtitle-container">
-            <p className="parallax-subtitle">Full Stack Developer & Creative Technologist</p>
-          </div>
         </div>
       </section>
 
       {/* Content Sections with Parallax Effects */}
       <section className="content-section">
-        <div 
-          className="content-background"
-          style={{
-            transform: `translateY(${scrollY * 0}px)`
-          }}
-        >
-          <div className="container">
-            <div className="content-card">
-              <h2>Welcome to My Digital Space</h2>
-              <p>
-                3rd year Comp.Sci student @ Université de Montreal. 
-                I create procedurally generated worlds, trying to push agent modelling generation
-                to its limits.
-              </p>
-              
-              <div className="action-buttons">
-                <Link to="/projects" className="btn btn-primary">
-                  <span>Explore My Work</span>
-                </Link>
-              </div>
-            </div>
+        <div className="content-card">
+          <p>
+            3rd year Comp.Sci student @ Université de Montreal. 
+            I create procedurally generated worlds, trying to push agent modelling generation
+            to its limits.
+          </p>
+          
+          <div className="action-buttons">
+            <Link to="/projects" className="btn btn-primary">
+              <span>Explore My Work</span>
+            </Link>
           </div>
         </div>
       </section>

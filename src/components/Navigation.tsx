@@ -8,11 +8,8 @@ const Navigation: React.FC = () => {
 
   const navItems = [
     { path: '/', label: 'Home', icon: '🏠' },
-    { path: '/about', label: 'About', icon: '👨‍💻' },
-    { path: '/experience', label: 'Experience', icon: '💼' },
-    { path: '/projects', label: 'Projects', icon: '🚀' },
+    { path: '/blog', label: 'Blog', icon: '📝' }, // Added blog nav item
     { path: '/calendar', label: 'Calendar', icon: '📅' },
-    { path: '/contact', label: 'Contact', icon: '📧' }
   ];
 
   const toggleMenu = () => {

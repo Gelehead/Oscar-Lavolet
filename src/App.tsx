@@ -3,13 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import About from './pages/About';
-import Experience from './pages/Experience';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
-import Calendar from './pages/calendar';
-
-import './css/main_page.css';
+import Calendar from './pages/Calendar';
+import Blog from './pages/Blog';
 
 const App: React.FC = () => {
   return (
@@ -19,11 +14,8 @@ const App: React.FC = () => {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/calendar" element={<Calendar />} /> {/* New route */}
+            <Route path="/calendar" element={<Calendar />} />
+            <Route path="/blog" element={<Blog />} /> {/* Add this route */}
           </Routes>
         </main>
         <Footer />
