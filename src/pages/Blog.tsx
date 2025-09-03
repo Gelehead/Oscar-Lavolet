@@ -131,8 +131,8 @@ const Blog: React.FC = () => {
     },
     {
       id: '3',
-      date: '2025-08-29',
-      title: 'React Component Architecture',
+      date: '2025-09-03',
+      title: 'Start of Online notes',
       excerpt: 'Deep dive into component design patterns and state management strategies.',
       tags: ['react', 'architecture', 'frontend'],
       content: (
