@@ -8,14 +8,14 @@ import Blog from './pages/Blog';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/Oscar-Lavolet">
       <div className="App">
         <Navigation />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/calendar" element={<Calendar />} />
-            <Route path="/blog" element={<Blog />} /> {/* Add this route */}
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </main>
         <Footer />
